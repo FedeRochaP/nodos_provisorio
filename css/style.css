@@ -94,6 +94,7 @@ header ul .btn {
     background-color: #e52625;
     border: none;
     font-size: 20px;
+    color: white;
 }
 
 header ul .btn:hover {
