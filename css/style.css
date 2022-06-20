@@ -227,12 +227,13 @@ section {
     background-image: url('../media/images/fondo-reves.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
-    padding: 30px;
+    /* height: 600px; */
+    padding: 60px 30px;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
-    align-items: baseline;
+    justify-content: center;
+    align-items: center;
+    background: #0672d5;
 }
 
 .b-2 {
@@ -246,6 +247,46 @@ section {
 
 .box-texto {
     text-align: left;
+}
+
+.box-texto h2 {
+    margin-bottom: 50px;
+    color: white;
+}
+
+.s-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.s-box {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.s-box img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.s-text {
+    background-color: white;
+    text-align: center;
+    padding: 0 10px;
+    border-radius: 0 0 10px 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s-text p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #0672d5;
 }
 
 .box .btn {
@@ -455,8 +496,7 @@ footer img {
 
 @media screen and (max-width: 840px) {
     main {
-        margin: 5px;
-        margin-top: 100px;
+        margin-top: 80px;
     }
 
     #titulo {
